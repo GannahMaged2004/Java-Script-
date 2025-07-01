@@ -1,4 +1,3 @@
-// Helper Functions
 function display(message) {
     document.getElementById('output').innerHTML += message + '<br>';
 }
@@ -7,7 +6,7 @@ function clearOutput() {
     document.getElementById('output').innerHTML = '';
 }
 
-// Question Functions
+
 function question1() {
     clearOutput();
     let number = prompt("1. Please Enter a number: ");
